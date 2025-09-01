@@ -13,6 +13,9 @@ public String getDescricao() {
 public boolean isConcluida() {
     return concluida;
 }
+public void concluir() {
+    this.concluida = true;
+}
 
 
    
