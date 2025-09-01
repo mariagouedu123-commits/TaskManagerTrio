@@ -20,6 +20,9 @@ public void concluir() {
 public String toString() {
     return (concluida ? "[X] " : "[ ] ") + descricao;
 }
+public class Main {
+    public static void main(String[] args) { }
+}
 
 
    
