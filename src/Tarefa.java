@@ -16,6 +16,10 @@ public boolean isConcluida() {
 public void concluir() {
     this.concluida = true;
 }
+@Override
+public String toString() {
+    return (concluida ? "[X] " : "[ ] ") + descricao;
+}
 
 
    
